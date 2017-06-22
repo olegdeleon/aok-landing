@@ -95,3 +95,37 @@ body {
 .about-header, .about-text {
   color: $white;
 }
+
+#press {
+  background: $off-white;
+}
+
+#footer {
+  background: $black;
+  height: 300px;
+
+  .footer-nav {
+    border-bottom: 1px solid #393939;
+    padding-bottom: 10px;
+    ul {
+      padding-left: 0;
+      li {
+        color: $lightgray;
+        display: inline;
+        font-weight: 600;
+        padding-left: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &:first-of-type {
+          padding-left: 0;
+        }
+
+      }
+
+      &:nth-of-type(2) {
+        float: right;
+      }
+    }
+  }
+}

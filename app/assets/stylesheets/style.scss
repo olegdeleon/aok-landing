@@ -21,31 +21,36 @@ $lightergray: #eaeaea;
 // Typography
 
 @font-face {
-  font-family: 'Avenir-Regular';
-  src: url(../fonts/AvenirNext-Regular.ttf);
+  font-family: 'Geomanist-Regular';
+  src: asset-url("Geomanist-Regular.otf");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Avenir-Medium';
-  src: url(../fonts/AvenirNext-Medium.ttf);
+  font-family: 'Geomanist-Book';
+  src: asset-url("Geomanist-Book.otf");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: 'Avenir-Bold';
-  src: url(../fonts/AvenirNext-Bold.ttf);
+  font-family: 'Geomanist-Medium';
+  src: asset-url("Geomanist-Medium.otf");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: 'Avenir-Heavy';
-  src: url(../fonts/AvenirNext-Heavy.ttf);
+  font-family: 'Geomanist-Black';
+  src: asset-url("Geomanist-Black.otf");
   font-weight: 900;
 }
 
+$regular: 'Geomanist-Regular', sans-serif;
+$book: 'Geomanist-Book', sans-serif;
+$medium: 'Geomanist-Medium', sans-serif;
+$bold: 'Geomanist-Black', sans-serif;
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'AvenirNext-Bold';
+  font-family: $medium;
 }
 
 p {
@@ -65,7 +70,7 @@ html {
 
 body {
   background: #red;
-  font-family: 'AvenirNext-Regular';
+  font-family: $regular;
 }
 
 .navbar {

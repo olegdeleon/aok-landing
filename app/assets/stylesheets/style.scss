@@ -141,6 +141,11 @@ body {
           padding-left: 0;
         }
 
+        i {
+          color: $gray;
+          cursor: pointer;
+        }
+
       }
 
       &:nth-of-type(2) {

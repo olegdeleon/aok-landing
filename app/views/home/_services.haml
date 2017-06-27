@@ -1,39 +1,40 @@
-.container
-  %h1.text-center.v-spacer-xl
-    Our Services
+#services
+  .container
+    %h1.text-center.v-spacer-xl
+      Our Services
 
-  .row.v-spacer-lg.text-center
-    .col-md-4.col-sm-4
-      .service-image
-        = image_tag("stamp-icon.png", class: "img-fluid")
-      .service-header
-        %h3 Consulting
-    .col-md-4.col-sm-4
-      .service-image
-        = image_tag("stamp-icon.png", class: "img-fluid")
-      .service-header
-        %h3 Design
-    .col-md-4.col-sm-4
-      .service-image
-        = image_tag("wallet-icon.png", class: "img-fluid")
-      .service-header
-        %h3 Photo / Video
+    .row.v-spacer-lg.text-center
+      .col-md-4.col-xs-4
+        .service-image
+          = image_tag("icon-consult.png", class: "img-fluid")
+        .service-header
+          %h3 Consulting
+      .col-md-4.col-xs-4
+        .service-image
+          = image_tag("icon-design.png", class: "img-fluid")
+        .service-header
+          %h3 Design
+      .col-md-4.col-xs-4
+        .service-image
+          = image_tag("icon-photo.png", class: "img-fluid")
+        .service-header
+          %h3 Photo / Video
 
-  .row.v-spacer-lg.text-center
-    .col-md-4.col-sm-4
-      .service-image
-        = image_tag("plane-icon.png", class: "img-fluid")
-      .service-header
-        %h3 Merchandising
-    .col-md-4.col-sm-4
-      .service-image
-        = image_tag("case-icon.png", class: "img-fluid")
-      .service-header
-        %h3 Events
-    .col-md-4.col-sm-4
-      .service-image
-        = image_tag("sertificate.png", class: "img-fluid")
-      .service-header
-        %h3 Technology
+    .row.v-spacer-lg.text-center
+      .col-md-4.col-xs-4
+        .service-image
+          = image_tag("icon-merch.png", class: "img-fluid")
+        .service-header
+          %h3 Merch
+      .col-md-4.col-xs-4
+        .service-image
+          = image_tag("icon-events.png", class: "img-fluid")
+        .service-header
+          %h3 Events
+      .col-md-4.col-xs-4
+        .service-image
+          = image_tag("icon-tech.png", class: "img-fluid")
+        .service-header
+          %h3 Tech
 
-  .v-spacer-xl
+    .v-spacer-xl

@@ -1,6 +1,20 @@
 %nav.navbar.navbar-default.navbar-fixed-top
   .container
     .navbar-header
+      %button.navbar-toggle.collapsed{"aria-expanded" => "false", "data-target" => "#bs-collapse", "data-toggle" => "collapse", :type => "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
       .navbar-brand
         %a.navbar-brand{:href => "#"}
           = image_tag "aok-logo.png", style: "width: 150px"
+
+    .collapse.navbar-collapse#bs-collapse
+      %ul.nav.navbar-nav.navbar-right
+        %li= link_to "Home", "/"
+        %li= link_to "Our Mission", "#mission"
+        %li= link_to "Who We Are", "#about"
+        %li= link_to "Services", "#services"
+        %li= link_to "Press", "#press"
+        %li= link_to "Contact", "mailto:support@aoklife.com"

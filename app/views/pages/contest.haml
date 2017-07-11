@@ -1,0 +1,29 @@
+%section#solaire-banner
+  .container
+
+%section#solaire-form.v-spacer-md
+  .container
+    %p.call-to-action
+      Please fill up the details carefully. We will choose a winner on September 5, 2017.
+
+      %form{:action => "https://formspree.io/oleg@aoklife.com", :method => "POST"}
+      .form-group
+        %input{:name => "Full Name", :placeholder => "Full name", :required => "", :type => "text"}/
+      .form-group
+        %input{:name => "Email", :placeholder => "Email address", :required => "", :type => "email"}/
+      .form-group
+        %input{:name => "Phone", :placeholder => "Phone number", :required => "", :type => "number"}/
+      .form-group
+        %input{:name => "Email", :placeholder => "Website / Portfolio", :required => "", :type => "url"}/
+      .form-group
+        %label{:for => "entries"} Upload your entries
+        %input{:name => "Files", :placeholder => "Email address", :required => "", :type => "file"}/
+      .form-group
+        %input{:name => "Files", :placeholder => "Email address", :required => "", :type => "file"}/
+      .form-group
+        %input{:name => "Files", :placeholder => "Email address", :required => "", :type => "file"}/
+      .form-group
+        %input{:name => "_gotcha", :style => "display: none;", :type => "text"}/
+      %button.btn-primary Submit entry
+
+.v-spacer-lg

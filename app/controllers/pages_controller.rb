@@ -4,4 +4,9 @@ class PagesController < ApplicationController
 
   end
 
+  def contest
+    render footer: false
+
+  end
+
 end

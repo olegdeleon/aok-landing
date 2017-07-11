@@ -11,6 +11,11 @@
 // about supported directives.
 //
 //= require bootstrap-sprockets
+//= require jquery
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
+
+setTimeout(function() {
+  odometer.innerHTML = 11109;
+}, 1000);

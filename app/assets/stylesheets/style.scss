@@ -194,3 +194,104 @@ body {
     }
   }
 }
+
+#money-raised {
+  background: $off-white;
+  height: 250px;
+}
+
+.raised-text {
+  padding: 40px;
+}
+
+// Solaire form
+
+.form-group {
+  margin: 30px 0;
+}
+
+.form-container {
+  background: $white;
+  height: 100%;
+  margin: 0 auto;
+  width: 450px;
+}
+
+input, select {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  color: $black;
+  font-size: 14px;
+  display: block;
+  height: 20px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  width: 300px;
+}
+
+input::placeholder {
+  color: #c2c2c2;
+  font-family: 'Geomanist-Regular';
+  font-size: 14px;
+}
+
+input:focus {
+  background: white;
+  border: 2px solid #e87e04;
+  outline: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+button {
+  background: #e87e04;
+  border: 2px solid #e87e04;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-family: 'Geomanist-Medium', sans-serif;
+  font-size: 18px;
+  font-weight: 700px;
+  height: 50px;
+  margin: 20px auto;
+  outline: none;
+  text-align: center;
+  transition: 0.2s linear;
+  width: 300px;
+}
+
+button:hover {
+  background: #d67403;
+}
+
+label {
+  color: #888888;
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding-left: 37%;
+}
+
+.call-to-action {
+  color: #888888;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#solaire-banner {
+  background: asset-url("solaire.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+  height: 700px;
+}

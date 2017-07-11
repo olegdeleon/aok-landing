@@ -18,6 +18,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'haml'
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
+gem 'jquery-rails'
+
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

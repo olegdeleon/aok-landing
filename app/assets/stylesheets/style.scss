@@ -295,3 +295,36 @@ label {
   width: 100%;
   height: 700px;
 }
+
+#events {
+  background: asset-url("event-jpark.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.event-logo {
+  margin: 20 auto;
+
+  h4, h6 {
+    color: $lightergray;
+  }
+}
+
+.event-presentor {
+  span {
+    h4, h6 {
+      color: $gray;
+    }
+  }
+}
+
+.event-partners {
+  h6 { color: $lightergray }
+  img:nth-of-type(2) {
+    padding-left: 40px;
+  }
+}

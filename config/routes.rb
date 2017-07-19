@@ -5,5 +5,4 @@ Rails.application.routes.draw do
   get "/solaire", to: "pages#contest"
   get "/sold", to: "pages#sold"
 
-  resources :submission
 end

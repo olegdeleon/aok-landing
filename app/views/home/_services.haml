@@ -4,19 +4,19 @@
       Our Services
 
     .row.v-spacer-lg.text-center
-      .col-md-4.col-xs-4
+      .col-md-4.col-sm-4
         .service-image
           = image_tag("icon-consult.png", class: "img-fluid")
         .service-header
           %h3 Consulting
           %p Have access to industry-specific specialists and subject-matter experts to provide your organization wit the bes professional advice fit for your cause.
-      .col-md-4.col-xs-4
+      .col-md-4.col-sm-4
         .service-image
           = image_tag("icon-design.png", class: "img-fluid")
         .service-header
           %h3 Design
           %p Have your ideas transformed into stunning visuals by a team of highly-creative and skilled designers who will listen to you and respect your organization's identity.
-      .col-md-4.col-xs-4
+      .col-md-4.col-sm-4
         .service-image
           = image_tag("icon-photo.png", class: "img-fluid")
         .service-header
@@ -24,19 +24,19 @@
           %p Have your ogranization's moments captured and let us help you capture the hearts of your audience through curated photos and videos that will bring your brand to shine above the rest.
 
     .row.v-spacer-lg.text-center
-      .col-md-4.col-xs-4
+      .col-md-4.col-sm-4
         .service-image
           = image_tag("icon-merch.png", class: "img-fluid")
         .service-header
           %h3 Merch
           %p Have your organization remembered and engrained in the lives of your audience through various everyday products like t-shirts, caps, mugs, umbrellas, and anything else you desire.
-      .col-md-4.col-xs-4
+      .col-md-4.col-sm-4
         .service-image
           = image_tag("icon-events.png", class: "img-fluid")
         .service-header
           %h3 Events
           %p From conceptualization to execution, our team will help you with your charitable events like concerts, exhibitions, and auctions
-      .col-md-4.col-xs-4
+      .col-md-4.col-sm-4
         .service-image
           = image_tag("icon-tech.png", class: "img-fluid")
         .service-header
@@ -47,26 +47,27 @@
   .container
     %h1.text-center.v-spacer-xl
       Our Partners
+    
+    .partner-container
+      .row.v-spacer-lg.text-center
+        .col-md-4.col-xs-4
+          .partner-image
+            = image_tag("charity-paws.jpg", class: "img-responsive")
+        .col-md-4.col-xs-4
+          .partner-image
+            = image_tag("charity-mano-amiga.JPG", class: "img-responsive")
+        .col-md-4.col-xs-4
+          .partner-image
+            = image_tag("charity-wwf.png", class: "img-responsive", style: "width: 80px;" )
 
-    .row.v-spacer-lg.text-center
-      .col-md-4.col-xs-4
-        .partner-image
-          = image_tag("charity-paws.jpg", class: "img-fluid")
-      .col-md-4.col-xs-4
-        .partner-image
-          = image_tag("charity-mano-amiga.JPG", class: "img-fluid")
-      .col-md-4.col-xs-4
-        .partner-image
-          = image_tag("charity-wwf.png", class: "img-fluid", style: "width: 80px;" )
-
-    .row.v-spacer-lg.text-center
-      .col-md-4.col-xs-4
-        .partner-image
-          = image_tag("charity-drk.jpg", class: "img-fluid", style: "width: 140px;")
-      .col-md-4.col-xs-4
-        .partner-image
-          = image_tag("charity-smiletran.png", class: "img-fluid", style: "width: 120px;")
-      .col-md-4.col-xs-4
-        .partner-image
-          = image_tag("charity-yespinoy.png", class: "img-fluid", style: "width: 120px;")
+      .row.v-spacer-lg.text-center
+        .col-md-4.col-xs-4
+          .partner-image
+            = image_tag("charity-drk.jpg", class: "img-responsive", style: "width: 140px;")
+        .col-md-4.col-xs-4
+          .partner-image
+            = image_tag("charity-smiletran.png", class: "img-responsive", style: "width: 120px;")
+        .col-md-4.col-xs-4
+          .partner-image
+            = image_tag("charity-yespinoy.png", class: "img-responsive", style: "width: 120px;")
     .v-spacer-xl
